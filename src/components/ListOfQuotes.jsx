@@ -18,6 +18,9 @@ export default class ListOfQuotes extends React.Component {
     }
 
     handleClick = async () => {
+  	this.setState({
+            pageNumbers: []
+        })
         const posts = await axios.get("https://programming-quotes-api.herokuapp.com/quotes")
             .then(res =>
                 this.setState({
