@@ -1,0 +1,23 @@
+.quotes{
+    margin-top: 20px;
+    border: 1px solid;
+    padding: 10px;
+    font-size: 24px;
+}
+.author{
+    background-color: yellow;
+    font-weight: bold;
+    font-size: 18px;
+}
+button{
+    background-color: blue;
+    color: white;
+    padding: 8px;
+    border-radius: 6px;
+    font-size: 16px;
+    
+}
+.btn{
+ text-align: center;   
+ margin: 10px 10px;
+}
